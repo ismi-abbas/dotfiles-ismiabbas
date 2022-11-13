@@ -30,11 +30,10 @@ end
 return packer.startup(function(use)
   -- packer can manage itself
   use ("wbthomason/packer.nvim")
-  
-  use ("bluz71/vim-nightfly-colors") -- preferred colo  rscheme
-  
-  use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
+  use ("bluz71/vim-nightfly-colors") -- preferred colorscheme
+
+  use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
   use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 

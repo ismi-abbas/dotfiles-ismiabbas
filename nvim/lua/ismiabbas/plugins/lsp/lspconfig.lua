@@ -48,6 +48,12 @@ end
 -- used to enable autocompletion (assign to every lsp server config)
 local capabilities = cmp_nvim_lsp.default_capabilities()
 
+local tabnine_status, tabnine = pcall(require, "cmp_tabnine.config")
+if not tabnine then
+  return
+end
+
+
 -- Change the Diagnostic symbols in the sign column (gutter)
 -- (not in youtube nvim video)
 local signs = { Error = " ", Warn = " ", Hint = "ﴞ ", Info = " " }
@@ -110,3 +116,17 @@ lspconfig["sumneko_lua"].setup({
   },
 })
 
+
+-- rust server
+require("lspconfig").rust_analyzer.setup({
+	cmd = { "rustup", "run", "nightly", "rust-analyzer" },
+	--[[
+    settings = {
+        rust = {
+            unstable_features = true,
+            build_on_save = false,
+            all_features = true,
+        },
+    }
+    --]]
+})
