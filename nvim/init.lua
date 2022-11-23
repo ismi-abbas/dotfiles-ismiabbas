@@ -1,16 +1,22 @@
-require("ismiabbas.plugins-setup")
-require('ismiabbas.core.options')
-require('ismiabbas.core.keymaps')
-require('ismiabbas.core.colorschemes')
-require('ismiabbas.plugins.comments')
-require('ismiabbas.plugins.nvim-tree')
-require('ismiabbas.plugins.lualine')
-require('ismiabbas.plugins.telescope')
-require('ismiabbas.plugins.nvim-cmp')
-require("ismiabbas.plugins.lsp.mason")
-require("ismiabbas.plugins.lsp.lspsaga")
-require("ismiabbas.plugins.lsp.lspconfig")
-require("ismiabbas.plugins.lsp.null-ls")
-require("ismiabbas.plugins.autopairs")
-require("ismiabbas.plugins.treesitter")
-require("ismiabbas.plugins.gitsigns")
+require "user.impatient"
+require "user.options"
+require "user.keymaps"
+require "user.plugins"
+require "user.autocommands"
+require "user.colorscheme"
+require "user.cmp"
+require "user.telescope"
+require "user.gitsigns"
+require "user.treesitter"
+require "user.autopairs"
+require "user.comment"
+require "user.nvim-tree"
+require "user.bufferline"
+require "user.lualine"
+require "user.toggleterm"
+require "user.project"
+require "user.illuminate"
+require "user.indentline"
+require "user.alpha"
+require "user.lsp"
+require "user.dap"
