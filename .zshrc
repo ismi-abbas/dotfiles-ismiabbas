@@ -77,7 +77,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -113,4 +113,15 @@ source /etc/zsh_command_not_found
 
 export NVM_DIR=~/.nvm
  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
- 
+alias vim="nvim"
+alias vi="nvim"
+alias t="tree -L 1 -a -D -h"
+alias t2="tree -L 2 -a -D -h"
+
+# pnpm
+export PNPM_HOME="/home/ismiabbas/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
+
+#lvim
+export PATH="/home/ismiabbas/.local/bin:$PATH"
