@@ -116,8 +116,8 @@
 	"eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact", "vue", "html"],
 
 	// Others
-	"codestats.apikey": "SFMyNTY.YVhOdGFXRmlZbUZ6IyNNVGswT1RRPQ.hTSmYqnBBY3M3tn-1Fb7bPwaY7vCflun3rzFlOjoX5w",
-	"codestats.username": "ismiabbas",
+	"codestats.apikey": "",
+	"codestats.username": "",
 	"window.openFilesInNewWindow": "on",
 	"window.openFoldersInNewWindow": "on",
 	"svelte.enable-ts-plugin": true,
