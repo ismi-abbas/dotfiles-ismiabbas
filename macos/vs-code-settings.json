@@ -1,16 +1,16 @@
 {
   // Visual
   "window.autoDetectColorScheme": true,
-  "workbench.preferredDarkColorTheme": "Best Themes - Andromeda Mariana Bordered",
+  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
   "workbench.preferredLightColorTheme": "Catppuccin Frappé",
   "workbench.iconTheme": "vscode-icons",
   // Editor
   "editor.inlineSuggest.enabled": true,
-  "editor.fontFamily": "JetbrainsMono Nerd Font Mono, Dank Mono, Zed Sans, SpaceMono Nerd Font, Geist Mono, SF Mono, Zed Mono, Iosevka, monospace",
+  "editor.fontFamily": "JetbrainsMono Nerd Font Mono, Jetbrains Mono, Dank Mono, Zed Sans, SpaceMono Nerd Font, Geist Mono, SF Mono, Zed Mono, Iosevka, monospace",
   "editor.lineNumbers": "relative",
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "editor.fontWeight": "400",
-  "editor.lineHeight": 1.8,
+  "editor.lineHeight": 1.5,
   "editor.guides.bracketPairs": true,
   "editor.guides.indentation": true,
   "editor.formatOnSave": false,
@@ -223,5 +223,6 @@
     "**/src/routes/**/+page.ts": "${dirname} - Page Script",
     "**/src/routes/**/+error.svelte": "${dirname} - Error",
     "**/src/routes/**/+layout.ts": "${dirname} - Layout Script"
-  }
+  },
+  "windsurf.autocompleteSpeed": "fast"
 }
